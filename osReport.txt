@@ -1,0 +1,43 @@
+lec3-4
+------
+i) processes
+	- process concept
+		- What is a process
+		- process state (new, running, waiting, ready, terminated)
+		- process control block (PCB)
+	- process scheduling
+		- process scheduling queues (job, ready, device, etc.)
+		- types of schedulers (long-term, medium-term, short-term)
+	- operations on processes
+		- create
+		- destroy
+		- suspend
+		- resume
+		- change priority
+		- block
+		- wakeup
+		- dispatch
+		- enable communication
+	- threads
+	- interprocess communication (IPC)
+		- message system
+		- logical vs. physical IPC
+		- buffering
+
+ii) CPU scheduling
+	- basic scheduling
+		- goals: multi-programming, maximize CPU utilization, manage process cycles
+		- preemptive vs nonpreemptive scheduling
+	- scheduling criteria
+		- CPU utilization (max)
+		- throughput (max)
+		- turnaround time (min)
+		- waiting time (min)
+		- response time (min)
+		- priority
+	- scheduling algorithms
+		- First-come, first serve (FIFO)
+		- Round robin (RR)
+		- Shortest-job-first (SJR)
+			- shortest-remaining-time-first (SRTF)
+		- Priority scheduling
